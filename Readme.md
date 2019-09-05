@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Maksim Sianko](https://up.htmlacademy.ru/htmlcss/26/user/32417).
-* Наставник: `Неизвестно`.
+- Студент: [Maksim Sianko](https://up.htmlacademy.ru/htmlcss/26/user/32417).
+- Наставник: [Виктория Куликова](https://htmlacademy.ru/profile/id293745).
 
 ---
 
