@@ -28,8 +28,38 @@
   </header>
   <main>
     <section>
+      <form action="" method="post">
+        <fieldset>
+          <legend>СТОИМОСТЬ</legend>
+          <!-- slider -->
+          <label for="min-price">ОТ</label>
+          <input type="text" name="min-price" id="min-price" value="0">
+          <label for="max-price">ДО</label>
+          <input type="text" name="max-price" id="max-price" value="15 000">
+        </fieldset>
+        <fieldset>
+          <legend>СЕТКА:</legend>
+          <ul>
+            <li><label for=""><input type="radio" name="" id="" checked>Адаптивная</label></li>
+            <li><label for=""><input type="radio" name="" id="">Фиксированая</label></li>
+            <li><label for=""><input type="radio" name="" id="">Резиновая</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>ОСОБЕННОСТИ:</legend>
+          <ul>
+            <li><label for=""><input type="checkbox" name="" id="" checked>Слайдер</label></li>
+            <li><label for=""><input type="checkbox" name="" id="">Блок преимуществ</label></li>
+            <li><label for=""><input type="checkbox" name="" id="" checked>Новости</label></li>
+            <li><label for=""><input type="checkbox" name="" id="">Галерея</label></li>
+            <li><label for=""><input type="checkbox" name="" id="">Корзина</label></li>
+          </ul>
+        </fieldset>
+        <button type="submit" aria-label="Показать">Показать</button>
+      </form>
+    </section>
+    <section>
 
-      <h3>СТОИМОСТЬ:</h3>
       <h3>СОРТИРОВАТЬ:</h3>
       <ul>
         <li><a href="">ПО ЦЕНЕ</a></li>
@@ -42,30 +72,15 @@
       </ul>
     </section>
     <section>
-      <!-- place for a slider -->
-      <div>
-        <h3>Сетка:</h3>
-        <ul>
-          <li>Адаптивная</li>
-          <li>Фиксированая</li>
-          <li>Резиновая</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Особенности:</h3>
-        <ul>
-          <li>Слайдер</li>
-          <li>Блок преимуществ</li>
-          <li>Новости</li>
-          <li>Галерея</li>
-          <li>Корзина</li>
-        </ul>
-      </div>
-      <button type="button">Показать</button>
-    </section>
-    <section>
       <ul>
-        <li><a href="#"><img src="img/img-sedona.jpg" alt="Sedona"></a></li>
+        <li>
+          <a href="#"><img src="img/img-sedona.jpg" alt="Sedona"></a>
+          <div>
+            <h3>SEDONA</h3>
+            <p>Информационный сайт для туристов</p>
+            <a href="">9 900 РУБ.</a>
+          </div>
+        </li>
         <li><a href="#"><img src="img/img-pink.jpg" alt="Pink"></a></li>
         <li><a href="#"><img src="img/img-barbershop.jpg" alt="Barbershop"></a></li>
         <li><a href="#"><img src="img/img-mishka.jpg" alt="Mishka"></a></li>
@@ -79,7 +94,22 @@
         <li><a href="#">СЛЕДУЮЩАЯ</a></li>
       </ul>
     </section>
-    </section>
+    <section>
+        <h2>Напишите нам</h2>
+        <form action="" method="post">
+          <div>
+            <label for="">Ваше имя: </label>
+            <input type="text" value="Имя Фамилия">
+            <label for="">Ваш e-mail: </label>
+            <input type="text" value="email@example.com">
+          </div>
+          <div>
+            <label for="textarea">Текст письма:</label>
+            <textarea name="В свободной форме" id="textarea" cols="30" rows="10">В свободной форме</textarea>
+          </div>
+          <input type="submit" value="ОТПРАВИТЬ">
+        </form>
+      </section>
     <section>
       <div>
         <h3>NЁRDS DESIGN STUDIO</h3>
