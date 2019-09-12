@@ -28,71 +28,74 @@
   </header>
   <main>
     <section>
-      <form action="" method="post">
-        <fieldset>
-          <legend>СТОИМОСТЬ</legend>
-          <!-- slider -->
-          <label for="min-price">ОТ</label>
-          <input type="text" name="min-price" id="min-price" value="0">
-          <label for="max-price">ДО</label>
-          <input type="text" name="max-price" id="max-price" value="15 000">
-        </fieldset>
-        <fieldset>
-          <legend>СЕТКА:</legend>
+      <div>
+        <form action="" method="post">
+          <fieldset>
+            <legend>СТОИМОСТЬ</legend>
+            <!-- slider -->
+            <label for="min-price">ОТ</label>
+            <input type="text" name="min-price" id="min-price" value="0">
+            <label for="max-price">ДО</label>
+            <input type="text" name="max-price" id="max-price" value="15 000">
+          </fieldset>
+          <fieldset>
+            <legend>СЕТКА:</legend>
+            <ul>
+              <li><label for=""><input type="radio" name="" id="" checked>Адаптивная</label></li>
+              <li><label for=""><input type="radio" name="" id="">Фиксированая</label></li>
+              <li><label for=""><input type="radio" name="" id="">Резиновая</label></li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>ОСОБЕННОСТИ:</legend>
+            <ul>
+              <li><label for=""><input type="checkbox" name="" id="" checked>Слайдер</label></li>
+              <li><label for=""><input type="checkbox" name="" id="">Блок преимуществ</label></li>
+              <li><label for=""><input type="checkbox" name="" id="" checked>Новости</label></li>
+              <li><label for=""><input type="checkbox" name="" id="">Галерея</label></li>
+              <li><label for=""><input type="checkbox" name="" id="">Корзина</label></li>
+            </ul>
+          </fieldset>
+          <button type="submit" aria-label="Показать">Показать</button>
+        </form>
+      </div>
+      <div>
+        <div>
+          <h3>СОРТИРОВАТЬ:</h3>
           <ul>
-            <li><label for=""><input type="radio" name="" id="" checked>Адаптивная</label></li>
-            <li><label for=""><input type="radio" name="" id="">Фиксированая</label></li>
-            <li><label for=""><input type="radio" name="" id="">Резиновая</label></li>
+            <li><a href="">ПО ЦЕНЕ</a></li>
+            <li><a href="">ПО ТИПУ</a></li>
+            <li><a href="">ПО НАЗВАНИЮ</a></li>
           </ul>
-        </fieldset>
-        <fieldset>
-          <legend>ОСОБЕННОСТИ:</legend>
           <ul>
-            <li><label for=""><input type="checkbox" name="" id="" checked>Слайдер</label></li>
-            <li><label for=""><input type="checkbox" name="" id="">Блок преимуществ</label></li>
-            <li><label for=""><input type="checkbox" name="" id="" checked>Новости</label></li>
-            <li><label for=""><input type="checkbox" name="" id="">Галерея</label></li>
-            <li><label for=""><input type="checkbox" name="" id="">Корзина</label></li>
+            <li><span>arrow-down</span></li>
+            <li><span>arrow-up</span></li>
           </ul>
-        </fieldset>
-        <button type="submit" aria-label="Показать">Показать</button>
-      </form>
-    </section>
-    <section>
-
-      <h3>СОРТИРОВАТЬ:</h3>
-      <ul>
-        <li><a href="">ПО ЦЕНЕ</a></li>
-        <li><a href="">ПО ТИПУ</a></li>
-        <li><a href="">ПО НАЗВАНИЮ</a></li>
-      </ul>
-      <ul>
-        <li><span>arrow-down</span></li>
-        <li><span>arrow-up</span></li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li>
-          <a href="#"><img src="img/img-sedona.jpg" alt="Sedona"></a>
-          <div>
-            <h3>SEDONA</h3>
-            <p>Информационный сайт для туристов</p>
-            <a href="">9 900 РУБ.</a>
-          </div>
-        </li>
-        <li><a href="#"><img src="img/img-pink.jpg" alt="Pink"></a></li>
-        <li><a href="#"><img src="img/img-barbershop.jpg" alt="Barbershop"></a></li>
-        <li><a href="#"><img src="img/img-mishka.jpg" alt="Mishka"></a></li>
-        <li><a href="#"><img src="img/img-aplus.jpg" alt="Aplus"></a></li>
-        <li><a href="#"><img src="img/img-kvast.jpg" alt="Kvast"></a></li>
-      </ul>
-      <ul>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">СЛЕДУЮЩАЯ</a></li>
-      </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="#"><img src="img/img-sedona.jpg" alt="Sedona"></a>
+              <div>
+                <h3>SEDONA</h3>
+                <p>Информационный сайт для туристов</p>
+                <a href="">9 900 РУБ.</a>
+              </div>
+            </li>
+            <li><a href="#"><img src="img/img-pink.jpg" alt="Pink"></a></li>
+            <li><a href="#"><img src="img/img-barbershop.jpg" alt="Barbershop"></a></li>
+            <li><a href="#"><img src="img/img-mishka.jpg" alt="Mishka"></a></li>
+            <li><a href="#"><img src="img/img-aplus.jpg" alt="Aplus"></a></li>
+            <li><a href="#"><img src="img/img-kvast.jpg" alt="Kvast"></a></li>
+          </ul>
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">СЛЕДУЮЩАЯ</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section>
         <h2>Напишите нам</h2>
