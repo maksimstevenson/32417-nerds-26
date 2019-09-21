@@ -16,7 +16,7 @@
   <header class="top-header">
     <nav class="navigation">
       <a href="index.html">
-        <img src="img/nerds-logo.svg" alt="logo"/>
+        <img src="img/nerds-logo.svg" alt="logo" />
       </a>
       <ul>
         <li><a href="#">Студия</a></li>
@@ -34,8 +34,8 @@
     <section class="filter">
       <div>
         <form action="" method="post">
-          <fieldset>
-            <legend>СТОИМОСТЬ</legend>
+          <fieldset class="price-range">
+            <legend class="filter-item">СТОИМОСТЬ:</legend>
             <!-- slider -->
             <label for="min-price">ОТ</label>
             <input type="text" name="min-price" id="min-price" value="0">
@@ -60,16 +60,16 @@
               <li><label for=""><input type="checkbox" name="" id="">Корзина</label></li>
             </ul>
           </fieldset>
-          <button type="submit" aria-label="Показать">Показать</button>
+          <button type="submit" aria-label="Показать" class="btn">Показать</button>
         </form>
       </div>
       <div>
-        <div>
-          <h3>СОРТИРОВАТЬ:</h3>
-          <ul>
-            <li><a href="">ПО ЦЕНЕ</a></li>
-            <li><a href="">ПО ТИПУ</a></li>
-            <li><a href="">ПО НАЗВАНИЮ</a></li>
+        <div class="sorting">
+          <p>СОРТИРОВАТЬ:</p>
+          <ul class="sorting-list">
+            <li><a href="#" class="sorting-item-active">ПО ЦЕНЕ</a></li>
+            <li><a href="#" class="sorting-item">ПО ТИПУ</a></li>
+            <li><a href="#" class="sorting-item">ПО НАЗВАНИЮ</a></li>
           </ul>
           <ul>
             <li><span>arrow-down</span></li>
@@ -92,7 +92,7 @@
             <li><a href="#"><img src="img/img-aplus.jpg" alt="Aplus"></a></li>
             <li><a href="#"><img src="img/img-kvast.jpg" alt="Kvast"></a></li>
           </ul>
-          <ul>
+          <ul class="page-counter">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
@@ -101,29 +101,30 @@
         </div>
       </div>
     </section>
+    <section class="hidden">
+      <h2>Напишите нам</h2>
+      <form action="" method="post">
+        <div>
+          <label for="">Ваше имя: </label>
+          <input type="text" value="Имя Фамилия">
+          <label for="">Ваш e-mail: </label>
+          <input type="text" value="email@example.com">
+        </div>
+        <div>
+          <label for="textarea">Текст письма:</label>
+          <textarea name="В свободной форме" id="textarea" cols="30" rows="10">В свободной форме</textarea>
+        </div>
+        <input type="submit" value="ОТПРАВИТЬ">
+      </form>
+    </section>
     <section>
-        <h2>Напишите нам</h2>
-        <form action="" method="post">
-          <div>
-            <label for="">Ваше имя: </label>
-            <input type="text" value="Имя Фамилия">
-            <label for="">Ваш e-mail: </label>
-            <input type="text" value="email@example.com">
-          </div>
-          <div>
-            <label for="textarea">Текст письма:</label>
-            <textarea name="В свободной форме" id="textarea" cols="30" rows="10">В свободной форме</textarea>
-          </div>
-          <input type="submit" value="ОТПРАВИТЬ">
-        </form>
-      </section>
-    <section>
-      <div>
+      <div class="contact-us">
         <h3>NЁRDS DESIGN STUDIO</h3>
         <p>191186, Санкт-Петербург,
           ул. Б. Конюшенная, д. 19/8
         </p>
         <p>тел. +7 (812) 275-75-75</p>
+        <a href="#" class="btn">Напишите нам</a>
       </div>
       <img src="img/map.jpg" alt="map">
     </section>
@@ -140,4 +141,5 @@
     <p>Скидка 10% для друзей из социальных сетей.</p>
   </footer>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 /* general styles  */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #283136;
@@ -15,24 +15,19 @@ body {
   background: #eeeeee;
 }
 
-.services h3 {
+.services h3,
+.statistic h3 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
 }
 
-/* .services p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #283136;
-} */
-
-.btn {
+/* .btn {
   font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
-}
+} */
 
 .main-footer h2 {
   font-size: 2.25rem;
@@ -46,9 +41,56 @@ body {
   color: #000000;
 }
 
-.filter-item {
-  font-family: 'Roboto', sans-serif;
+/* main  */
+
+.filter-item,
+.sorting p,
+.contact-us h3 {
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   color: #000000;
+}
+
+.slide-item h1 {
+  font-size: 3.4375rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.description h1 {
+  font-size: 2.8125rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.sorting-item-active {
+  font-size: 0.875rem;
+  color: #000000;
+  font-weight: 400;
+}
+
+.sorting-item {
+  font-size: 0.875rem;
+  color: #a6a6a6;
+  font-weight: 400;
+}
+
+.page-counter {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* buttons  */
+.btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #fb565a;
+}
+
+/* popup  */
+.hidden {
+  display: none;
 }
