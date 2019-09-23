@@ -92,6 +92,7 @@ body {
   font-size: 3.4375rem;
   font-weight: 500;
   color: #000000;
+  width: 525px;
 }
 
 .description h1 {
@@ -144,6 +145,35 @@ body {
   display: flex;
 }
 
+.slide-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url("../img/slide1.png") no-repeat #eeeeee right;
+  height: 413px;
+}
+
+.slide-item:nth-child(2) {
+  background: url("../img/slide2.png") no-repeat #eeeeee right;
+}
+
+.slide-item:nth-child(3) {
+  background: url("../img/slide3.png") no-repeat #eeeeee right;
+}
+
+.general-info {
+  display: flex;
+}
+
+.statistic-list {
+  display: flex;
+}
+
+.list-of-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 /* footer  */
 .main-footer {
   display: flex;
